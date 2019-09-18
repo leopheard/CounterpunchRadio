@@ -25,7 +25,7 @@ def get_playable_podcast1(soup1):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "https://cpdev1-wpengine.netdna-ssl.com/wp-content/uploads/2015/04/CounterPunch-radio-logo-1-e1436220148713-200x200.jpg",
+                'thumbnail': "https://is2-ssl.mzstatic.com/image/thumb/Podcasts71/v4/71/55/88/71558834-c449-9ac3-e327-cad002e305b4/mza_4409042347411679857.jpg/600x600bb.jpg",
         }
         subjects.append(item)
     return subjects
@@ -54,7 +54,7 @@ def get_playable_podcast(soup1):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "https://cpdev1-wpengine.netdna-ssl.com/wp-content/uploads/2015/04/CounterPunch-radio-logo-1-e1436220148713-200x200.jpg",
+                'thumbnail': "https://is2-ssl.mzstatic.com/image/thumb/Podcasts71/v4/71/55/88/71558834-c449-9ac3-e327-cad002e305b4/mza_4409042347411679857.jpg/600x600bb.jpg",
         }
         subjects.append(item)
     return subjects
